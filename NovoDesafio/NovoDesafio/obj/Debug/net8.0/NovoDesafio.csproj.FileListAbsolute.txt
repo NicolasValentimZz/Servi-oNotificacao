@@ -1,0 +1,15 @@
+/home/nicolas/Curso C#/NovoDesafio/NovoDesafio/bin/Debug/net8.0/NovoDesafio
+/home/nicolas/Curso C#/NovoDesafio/NovoDesafio/bin/Debug/net8.0/NovoDesafio.deps.json
+/home/nicolas/Curso C#/NovoDesafio/NovoDesafio/bin/Debug/net8.0/NovoDesafio.runtimeconfig.json
+/home/nicolas/Curso C#/NovoDesafio/NovoDesafio/bin/Debug/net8.0/NovoDesafio.dll
+/home/nicolas/Curso C#/NovoDesafio/NovoDesafio/bin/Debug/net8.0/NovoDesafio.pdb
+/home/nicolas/Curso C#/NovoDesafio/NovoDesafio/obj/Debug/net8.0/NovoDesafio.GeneratedMSBuildEditorConfig.editorconfig
+/home/nicolas/Curso C#/NovoDesafio/NovoDesafio/obj/Debug/net8.0/NovoDesafio.AssemblyInfoInputs.cache
+/home/nicolas/Curso C#/NovoDesafio/NovoDesafio/obj/Debug/net8.0/NovoDesafio.AssemblyInfo.cs
+/home/nicolas/Curso C#/NovoDesafio/NovoDesafio/obj/Debug/net8.0/NovoDesafio.csproj.CoreCompileInputs.cache
+/home/nicolas/Curso C#/NovoDesafio/NovoDesafio/obj/Debug/net8.0/NovoDesafio.sourcelink.json
+/home/nicolas/Curso C#/NovoDesafio/NovoDesafio/obj/Debug/net8.0/NovoDesafio.dll
+/home/nicolas/Curso C#/NovoDesafio/NovoDesafio/obj/Debug/net8.0/refint/NovoDesafio.dll
+/home/nicolas/Curso C#/NovoDesafio/NovoDesafio/obj/Debug/net8.0/NovoDesafio.pdb
+/home/nicolas/Curso C#/NovoDesafio/NovoDesafio/obj/Debug/net8.0/NovoDesafio.genruntimeconfig.cache
+/home/nicolas/Curso C#/NovoDesafio/NovoDesafio/obj/Debug/net8.0/ref/NovoDesafio.dll
