@@ -1,0 +1,14 @@
+/home/nicolas/Curso C#/Desafio/Desafio/bin/Debug/net8.0/Desafio
+/home/nicolas/Curso C#/Desafio/Desafio/bin/Debug/net8.0/Desafio.deps.json
+/home/nicolas/Curso C#/Desafio/Desafio/bin/Debug/net8.0/Desafio.runtimeconfig.json
+/home/nicolas/Curso C#/Desafio/Desafio/bin/Debug/net8.0/Desafio.dll
+/home/nicolas/Curso C#/Desafio/Desafio/bin/Debug/net8.0/Desafio.pdb
+/home/nicolas/Curso C#/Desafio/Desafio/obj/Debug/net8.0/Desafio.GeneratedMSBuildEditorConfig.editorconfig
+/home/nicolas/Curso C#/Desafio/Desafio/obj/Debug/net8.0/Desafio.AssemblyInfoInputs.cache
+/home/nicolas/Curso C#/Desafio/Desafio/obj/Debug/net8.0/Desafio.AssemblyInfo.cs
+/home/nicolas/Curso C#/Desafio/Desafio/obj/Debug/net8.0/Desafio.csproj.CoreCompileInputs.cache
+/home/nicolas/Curso C#/Desafio/Desafio/obj/Debug/net8.0/Desafio.dll
+/home/nicolas/Curso C#/Desafio/Desafio/obj/Debug/net8.0/refint/Desafio.dll
+/home/nicolas/Curso C#/Desafio/Desafio/obj/Debug/net8.0/Desafio.pdb
+/home/nicolas/Curso C#/Desafio/Desafio/obj/Debug/net8.0/Desafio.genruntimeconfig.cache
+/home/nicolas/Curso C#/Desafio/Desafio/obj/Debug/net8.0/ref/Desafio.dll
