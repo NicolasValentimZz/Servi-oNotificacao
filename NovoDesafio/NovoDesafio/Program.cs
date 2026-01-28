@@ -22,19 +22,22 @@ internal class Program
             notification = new EmailNotification(title, subject, body);
         }
 
-        else
+        else if (response == "SMS")
         {
+            Console.Write("Phone number: ");
+            string phoneNumber = Console.ReadLine();
             Console.Write("Body: ");
             string body = Console.ReadLine();
-
-            notification = new SMSNotification(body);
+            
+            notification = new SMSNotification(phoneNumber, body);
         }
-        
-        NotificationService notificationService = new NotificationService(notification);
-        
-        Console.WriteLine(notificationService.SendNotification());
-        
-        Console.WriteLine(notification);
-        
+        else
+        {
+            Console.Write("Enter E-mail or SMS");
+            return;
+        }
+
+        NotificationService service = new NotificationService(notification);
+        service.SendNotification();
     }
 }

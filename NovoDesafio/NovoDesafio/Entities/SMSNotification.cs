@@ -5,23 +5,23 @@ namespace NovoDesafio.Entities;
 public class SMSNotification : INotification
 {
    public string Body { get; set; }
+   public string PhoneNumber { get; set; }
 
-    public SMSNotification(string body)
+    public SMSNotification(string body, string phoneNumber)
     {
-       Body = body;
+       Body = body ?? throw new ArgumentNullException(nameof(body));
+       PhoneNumber = phoneNumber ?? throw new ArgumentNullException(nameof(phoneNumber));
     }
 
     public bool ReciveMessage(string message)
     {
-        if (message != String.Empty)
-        {
-            return message == Body;
-        }
-        return false;
+        if (string.IsNullOrEmpty(message)) return false;
+        Body = message;
+        return !string.IsNullOrEmpty(PhoneNumber);
     }
 
-    public override string ToString()
+    public void Notification()
     {
-        return "New message - " + Body;
+        Console.WriteLine("SMS Notification");
     }
 }

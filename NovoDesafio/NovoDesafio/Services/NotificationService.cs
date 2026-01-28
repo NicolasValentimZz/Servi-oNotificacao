@@ -9,8 +9,8 @@ public class NotificationService
         _notification = notification;
     }
 
-    public string SendNotification()
+    public void SendNotification()
     {
-        return _notification.Notification();
+         _notification.Notification();
     }
 }

@@ -12,21 +12,19 @@ public class EmailNotification : INotification
     {
         Title = title;
         Subject = subject;
-        Body = body;
+        Body = body ?? throw new ArgumentNullException(nameof(body));
     }
 
     public bool ReciveMessage(string message)
     {
-        if (message != String.Empty)
-        {
-            return message == Title && message ==  Subject && message == Body;
-        }
-        return false;
+        if (string.IsNullOrEmpty(message)) return false;
+        Body = message;
+        return true;
     }
 
-    public override string ToString()
+    public void Notification()
     {
-        return "Message from " + Title;
+        Console.WriteLine("E-mail Notification");
     }
-
+    
 }
